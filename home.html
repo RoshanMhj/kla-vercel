@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts..com/css2?family=Lato:wght@400;700&display=sgoogleapiswap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bs-brain@2.0.2/components/navbars/navbar-1/assets/css/navbar-1.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kathmandu Law Associates</title>
+  </head>
+
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-md bsb-navbar bsb-navbar-hover bsb-navbar-caret navbar-light bg-light"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            Kathmandu Law Associates
+          </a>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#!"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#!"
+                    id="accountDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Contact</a
+                  >
+                  <ul
+                    class="dropdown-menu border-0 shadow bsb-zoomIn"
+                    aria-labelledby="accountDropdown"
+                  >
+                    <li><a class="dropdown-item" href="#!">01-5705449</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#!">KLA@gmail.com</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#!"
+                    id="servicesDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Services</a
+                  >
+                  <ul
+                    class="dropdown-menu border-0 shadow bsb-zoomIn"
+                    aria-labelledby="servicesDropdown"
+                  >
+                    <li><a class="dropdown-item" href="#!">Cyber Law</a></li>
+                    <li><a class="dropdown-item" href="#!">Criminal Law</a></li>
+                    <li><a class="dropdown-item" href="#!">Family Law</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#!">Commercial Law</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">Articles</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Section with Background Image -->
+    <div class="top">
+      <section class="home">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <div class="slides">
+            <div class="mySlides">
+              <h1 class="animatedReveal">Get Legal Representation</h1>
+              <p class="animatedFromLeft">
+                Our law firm provides legal representation by offering a range
+                of legal services to individuals, businesses, or other entities.
+              </p>
+            </div>
+
+            <div class="mySlides">
+              <h1 class="animatedAppear">Experienced Advoctes</h1>
+              <p class="animatedFromBottom">
+                We provide our clients with experienced and skilled lawyers to
+                represnt their legal interests.
+              </p>
+            </div>
+
+            <div class="mySlides">
+              <h1 class="animatedFromTop">Legal Consultation</h1>
+              <p class="animatedFromRight">
+                Get legal consultation from the best lawyers to best satisfy
+                your legal needs.
+              </p>
+            </div>
+          </div>
+          <!-- Full-width slides/quotes -->
+
+          <!-- Next/prev buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!--Button-->
+        <a href="about.html" class="button">Learn More</a>
+
+        <!-- Dots/bullets/indicators -->
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </section>
+    </div>
+
+    <div class="second-page">
+      <div class="second-page-left">
+        <div class="text-container">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas animi
+            at vero officia saepe, praesentium commodi incidunt. Illo, quas, id,
+            perferendis labore eligendi n ulla ipsum adipisci perspiciatis
+            quibusdam rerum beatae
+          </p>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="second-page-right">
+        <div class="carousel-container">
+          <div id="pictureCarousel" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active c-item">
+                <img
+                  src="./assets/images/1.jpg"
+                  class="d-block w-100 c-img"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item c-item">
+                <img
+                  src="./assets/images/2.jpg"
+                  class="d-block w-100 c-img"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item c-item">
+                <img
+                  src="./assets/images/3.jpg"
+                  class="d-block w-100 c-img"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#pictureCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#pictureCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services-page" id="services">
+      <h1>Our Services</h1>
+      <div class="services-grid">
+        <div class="service-card">
+          <h2>Cyber Law</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            error quae, est ea voluptatem voluptatum eveniet alias labore.
+            Consectetur obcaecati ab sunt quidem quasi odio distinctio?
+            Praesentium debitis fugit quia.
+          </p>
+          <a href="#">
+            <button class="service-btn">
+              Learn More <i class="bi bi-arrow-up-right"></i>
+            </button>
+          </a>
+        </div>
+        <div class="service-card">
+          <h2>Family Law</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            error quae, est ea voluptatem voluptatum eveniet alias labore.
+            Consectetur obcaecati ab sunt quidem quasi odio distinctio?
+            Praesentium debitis fugit quia.
+          </p>
+          <a href="#">
+            <button class="service-btn">
+              Learn More <i class="bi bi-arrow-up-right"></i>
+            </button>
+          </a>
+        </div>
+        <div class="service-card">
+          <h2>Criminal Law</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            error quae, est ea voluptatem voluptatum eveniet alias labore.
+            Consectetur obcaecati ab sunt quidem quasi odio distinctio?
+            Praesentium debitis fugit quia.
+          </p>
+          <a href="#">
+            <button class="service-btn">
+              Learn More <i class="bi bi-arrow-up-right"></i>
+            </button>
+          </a>
+        </div>
+        <div class="service-card">
+          <h2>Cyber Law</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            error quae, est ea voluptatem voluptatum eveniet alias labore.
+            Consectetur obcaecati ab sunt quidem quasi odio distinctio?
+            Praesentium debitis fugit quia.
+          </p>
+          <a href="#">
+            <button class="service-btn">
+              Learn More <i class="bi bi-arrow-up-right"></i>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
